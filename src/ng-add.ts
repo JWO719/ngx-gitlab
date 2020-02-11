@@ -77,7 +77,7 @@ export const ngAdd = (options: NgAddOptions) => (
   }
 
   project.architect['deploy'] = {
-    builder: '@angular-schule/ngx-deploy-starter:deploy',
+    builder: 'ngx-gitlab:deploy',
     options: {}
   };
 
